@@ -22,7 +22,7 @@ function App() {
         navigate('/login')
       }
     })
-  })
+  },[])
   return (
     <div>
       <ToastContainer theme='dark'/>
